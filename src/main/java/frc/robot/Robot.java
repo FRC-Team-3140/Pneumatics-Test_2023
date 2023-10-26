@@ -34,6 +34,8 @@ public class Robot extends TimedRobot {
   //private final DoubleSolenoid NOW = new DoubleSolenoid(1, PneumaticsModuleType.CTREPCM, 7, 7);
 
   private final XboxController m_Controller = new XboxController(0);
+  private final XboxController m_Controller2 = new XboxController(1);
+
 
   /**
    * This function is run when the robot is first started up and should be used for any
