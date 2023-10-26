@@ -35,6 +35,7 @@ public class Robot extends TimedRobot {
 
   private final XboxController m_Controller = new XboxController(0);
   private final XboxController m_Controller2 = new XboxController(1);
+  private final XboxController m_Controller3 = new XboxController(2);
 
 
   /**
